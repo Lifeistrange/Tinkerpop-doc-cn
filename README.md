@@ -1,3 +1,8 @@
-# My Awesome Book
+# 简介
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+    本文翻译自[http://tinkerpop.apache.org/docs/3.2.6/reference](http://tinkerpop.apache.org/docs/3.2.6/reference)，主要为了gremlin的使用，版本为3.2.6。
+
+    关于tinkerpop的文档会先行略过，Gremlin的语法特性与使用优先翻译，tinkerpop相关后续更新。
+
+
+
