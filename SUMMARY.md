@@ -2,11 +2,17 @@
 
 * [简介](README.md)
 * [介绍图计算](Intruduction/Intruduction-to-graph-computing.md)
+  * [图的过程](Intruduction/The-Graph-Process.md)
 * [图](Graph/The-graph.md)
 * [遍历](Traversal/The-traversal.md)
+  * [图遍历步骤](Traversal/Graph-Traversal-Steps.md)
+  * [一般步骤](Traversal/General-Steps.md)
+  * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
+  * [Gremlin控制台](Gremlin-applications/Gremlin-Console.md)
 * [实现](Implementations/Implementations.md)
 * [Gremlin变种](Gremlin-variants/Gremlin-variants.md)
 * [总结](Conclusion.md)
 * [致谢](Acknowledgements.md)
+
