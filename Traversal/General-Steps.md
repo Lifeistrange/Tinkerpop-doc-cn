@@ -12,3 +12,29 @@
 
 > 匿名步骤提出的教育目的左右他们所代表的Gremlin语言的基础结构。在实践中，匿名步骤应该避免在遍历中使用，并且遍历验证策略不允许使用，除非明确关闭验证。想要获取更多关于匿名表达式，请看[A Note on Lambdas](A-Note-On-Lambdas.html)
 
+`Traverser<S>`对象提供以下操作：
+
+1. 目前遍历到的`S`对象——`Traverser.get()`
+2. 目前通过遍历器遍历的路径——`Traverser.path()`
+   1. 一个获取特定历史路径对象的缩写——`Traverser.path(String) == Traverser.path().get(String)`
+3. 遍历器循环遍历目前循环的次数——`Traverser.loops()`
+4. 遍历器遍历到的对象的数量——`Traverser.bulk()`
+5. 遍历器关联的本地数据结构——`Traverser.sack()`
+6. 遍历相关的副作用——`Traverser.sideEffects()`
+   1. 一个获取特定副作用的缩写——`Traverser.sideEffect(String) == Tarverser.sideEffects().get(String)`
+
+```groovy
+gremlin> g.V(1).out().values('name') //1
+==>lop
+==>vadas
+==>josh
+gremlin> g.V(1).out().map {it.get().value('name')} //2
+==>lop
+==>vadas
+==>josh
+gremlin> g.V(1).out().map(values('name')) //3
+==>lop
+==>vadas
+==>josh
+```
+
