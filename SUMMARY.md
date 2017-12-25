@@ -7,6 +7,8 @@
 * [遍历](Traversal/The-traversal.md)
   * [图遍历步骤](Traversal/Graph-Traversal-Steps.md)
   * [一般步骤](Traversal/General-Steps.md)
+  * [终端步骤](Traversal/Terminal-Steps.md)
+  * [新增边步骤](Traversal/AddEdge-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
