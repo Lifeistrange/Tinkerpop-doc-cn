@@ -38,3 +38,81 @@ gremlin> g.V(1).out().map(values('name')) //3
 ==>josh
 ```
 
+1. 节点1的一个向外关系关联节点的name属性
+2. 同样情况下，使用匿名函数获取name属性
+3. 再次同样情况，但是使用`map()`函数
+
+```groovy
+gremlin> g.V().filter {it.get().label() == 'person'} //1\
+==>v[1]
+==>v[2]
+==>v[4]
+==>v[6]
+gremlin> g.V().filter(label().is('person')) //2\
+==>v[1]
+==>v[2]
+==>v[4]
+==>v[6]
+gremlin> g.V().hasLabel('person') //3\
+==>v[1]
+==>v[2]
+==>v[4]
+==>v[6]
+```
+
+1. 一个过滤器，用来获取所有label为person的节点
+2. 同样的操作，使用`filter()`函数
+3. 使用专用的`has()`步骤，由`filter()`实现
+
+```groovy
+gremlin> g.V().hasLabel('person').sideEffect(System.out.&println) //1\
+v[1]
+==>v[1]
+v[2]
+==>v[2]
+v[4]
+==>v[4]
+v[6]
+==>v[6]
+gremlin> g.V().sideEffect(outE().count().store("o")).
+               sideEffect(inE().count().store("i")).cap("o","i") //2\
+==>[i:[0,0,1,1,1,3],o:[3,0,0,0,2,1]]
+```
+
+1. 不论什么输入进`sideEffect()`都会被传输给下一步骤，当然也有可能发生一些干预过程。
+2. 计算每个节点出和进的边的数量。两个`sideEffect()`对节点都进行了统计
+
+```groovy
+gremlin> g.V().branch {it.get().value('name')}.
+               option('marko', values('age')).
+               option(none, values('name')) //1\
+==>29
+==>vadas
+==>lop
+==>josh
+==>ripple
+==>peter
+gremlin> g.V().branch(values('name')).
+               option('marko', values('age')).
+               option(none, values('name')) //2\
+==>29
+==>vadas
+==>lop
+==>josh
+==>ripple
+==>peter
+gremlin> g.V().choose(has('name','marko'),
+                      values('age'),
+                      values('name')) //3\
+==>29
+==>vadas
+==>lop
+==>josh
+==>ripple
+==>peter
+```
+
+1. 如果节点是“marko”，获取他的“age”属性，否则获取他的“name”属性
+2. 同样的操作，但是使用`branch()`函数
+3. 更加具体的方法是一个基于boolean的`choose()`步骤，由`branch()`实现。
+
