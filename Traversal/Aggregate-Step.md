@@ -1,4 +1,4 @@
-# 聚合步骤
+# aggregate步骤
 
 ![](image/aggregate-step.png)
 

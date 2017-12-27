@@ -1,4 +1,4 @@
-# 新增节点步骤
+# addV步骤
 
 `addV()`步骤用来向图中添加节点(map/sideEffect)。每一个进入的对象，都会创建一个节点。此外，`GraphTraversalSource`主要也是一个`addV()`方法。
 
