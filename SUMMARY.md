@@ -16,6 +16,8 @@
   * [as步骤](Traversal/As-Step.md)
   * [barrier步骤](Traversal/Barrier-Step.md)
   * [by步骤](Traversal/By-Step.md)
+  * [cap步骤](Traversal/Cap-Step.md)
+  * [choose步骤](Traversal/Choose-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
