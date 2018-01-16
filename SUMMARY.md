@@ -22,6 +22,8 @@
   * [coin步骤](Traversal/Coin-Step.md)
   * [constant步骤](Traversal/Constant-Step.md)
   * [count步骤](Traversal/Count-Step.md)
+  * [cyclic步骤](Traversal/CyclicPath-Step.md)
+  * [dedup步骤](Traversal/Dedup-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
