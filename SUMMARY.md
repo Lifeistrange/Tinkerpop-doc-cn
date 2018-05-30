@@ -33,6 +33,7 @@
   * [groupcount步骤](Traversal/GroupCount-Step.md)
   * [has步骤](Traversal/Has-Step.md)
   * [id步骤](Traversal/Id-Step.md)
+  * [inject步骤](Traversal/Inject-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
