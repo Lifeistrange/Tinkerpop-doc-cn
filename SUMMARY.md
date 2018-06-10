@@ -40,6 +40,7 @@
   * [limit步骤](Traversal/Limit-Step.md)
   * [local步骤](Traversal/Local-Step.md)
   * [loops步骤](Traversal/Loops-Step.md)
+  * [match步骤](Traversal/Match-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
