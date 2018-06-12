@@ -44,6 +44,7 @@
   * [max步骤](Traversal/Max-Step.md)
   * [mean步骤](Traversal/Mean-Step.md)
   * [min步骤](Traversal/Min-Step.md)
+  * [not步骤](Traversal/Not-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
