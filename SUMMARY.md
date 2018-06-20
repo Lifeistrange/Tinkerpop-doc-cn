@@ -52,6 +52,7 @@
   * [pageRank步骤](Traversal/PageRank-Step.md)
   * [path步骤](Traversal/Path-Step.md)
   * [peerPressure步骤](Traversal/PeerPressure-Step.md)
+  * [profile步骤](Traversal/Profile-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
@@ -60,4 +61,5 @@
 * [Gremlin变种](Gremlin-variants/Gremlin-variants.md)
 * [总结](Conclusion.md)
 * [致谢](Acknowledgements.md)
+
 
