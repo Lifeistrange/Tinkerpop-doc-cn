@@ -53,6 +53,7 @@
   * [path步骤](Traversal/Path-Step.md)
   * [peerPressure步骤](Traversal/PeerPressure-Step.md)
   * [profile步骤](Traversal/Profile-Step.md)
+  * [project步骤](Traversal/Project-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
