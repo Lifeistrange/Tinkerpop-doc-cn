@@ -58,6 +58,7 @@
   * [properties步骤](Traversal/Properties-Step.md)
   * [range步骤](Traversal/Range-Step.md)
   * [repeat步骤](Traversal/Repeat-Step.md)
+  * [sack步骤](Traversal/Sack-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
