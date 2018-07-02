@@ -60,6 +60,7 @@
   * [repeat步骤](Traversal/Repeat-Step.md)
   * [sack步骤](Traversal/Sack-Step.md)
   * [sample步骤](Traversal/Sample-Step.md)
+  * [select步骤](Traversal/Select-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
