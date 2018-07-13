@@ -67,6 +67,7 @@
   * [sum步骤](Traversal/Sum-Step.md)
   * [tail步骤](Traversal/Tail-Step.md)
   * [timeLimit步骤](Traversal/TimeLimit-Step.md)
+  * [to步骤](Traversal/To-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
