@@ -73,6 +73,7 @@
   * [union步骤](Traversal/Union-Step.md)
   * [value步骤](Traversal/Value-Step.md)
   * [valueMap步骤](Traversal/ValueMap-Step.md)
+  * [values步骤](Traversal/Values-Step.md)
   * [关于匿名表达式](Traversal/A-Note-On-Lambdas.md)
 * [图计算](Graphcomputer/The-graphcomputer.md)
 * [Gremlin应用](Gremlin-applications/Gremlin-applications.md)
